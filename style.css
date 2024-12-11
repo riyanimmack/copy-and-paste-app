@@ -1,0 +1,50 @@
+* {
+   margin:0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2.5px;
+}
+
+.left{
+    height: 100vh;
+    width: 800px;
+    background-color: blueviolet;
+}
+
+.right{
+    height: 100vh;
+    width: 800px;
+    background-color: blueviolet;
+}
+
+.whitebg{
+    margin-left: 200px;
+}
+
+.whitebg2{
+    background-color: antiquewhite;
+    width: 400px;
+    height: 80px;
+    margin-left: 180px;
+}
+
+.field{
+    display: flex;
+    justify-content: center;
+    margin-top:300px;    
+}
+
+
+button{
+    background-color: black;
+    color: antiquewhite;
+}
+
+.text1{
+    height: 80px;
+    width: 400px;
+}
